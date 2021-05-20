@@ -37,6 +37,7 @@ for i in range(0, 1000, 50):
             phone_number[business['phone']] = 1
         print('')
 
+# write your sample csv file
 with open('companies_with_coordiantes.csv', 'w') as f:
     write = csv.writer(f)
     write.writerow(cols)
