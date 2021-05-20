@@ -4,6 +4,8 @@ import pandas
 
 # read the coordiantes data from the csv file
 colnames = ['latitude', 'longitude']
+
+# use your sample file csv file here
 data = pandas.read_csv('companies_with_coordiantes.csv', names=colnames, header=1)
 
 latitude_list = data.latitude.tolist()
